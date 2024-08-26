@@ -1,1 +1,1 @@
-# ML_StudyBuddy
+# MU_Wine_Predictions
