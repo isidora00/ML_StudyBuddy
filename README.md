@@ -15,7 +15,7 @@ Drugi skup podataka sadrži preko 130.000 recenzija različitih vrsta vina iz ce
 Da biste instalirali sve potrebne biblioteke i pakete, koristite sledeću komandu:
 
 ```bash
-pip install seaborn ucimlrepo plotly
+conda env create -f environment.yml
 ```
 ## Korišćene metode
 
