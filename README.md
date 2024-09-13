@@ -17,6 +17,13 @@ Da biste instalirali sve potrebne biblioteke i pakete, koristite sledeću komand
 ```bash
 conda env create -f environment.yml
 ```
+
+Sačuvani modeli i međurezultati nalaze u folderu models, i za njihovo korišćenje potrebno je izvršiti komandu 
+
+```bash
+unzip models/models_03.zip -d models/
+```
+
 ## Korišćene metode
 
 U ovom projektu koristimo različite metode mašinskog učenja za predviđanje kvaliteta vina, uključujući linearnu regresiju, Naivni Bayes, SVM, slučajnu sumu i AdaBoost. Od svih ovih metoda, slučajna suma je pokazala najbolje rezultate, pružajući najvišu tačnost i stabilnost u analizi kvaliteta vina.
